@@ -95,12 +95,13 @@ img {
     display: block;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 body {
     display: grid;
-    grid-template-columns: repeat(4, 256px);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(6, 256px);
+    grid-template-rows: repeat(8, 100px);
     margin: 0;
     height: 100vh;
     box-sizing: border-box;
@@ -112,8 +113,8 @@ body {
 }
 
 .Bit2 {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 2 / 4;
+    grid-row: 7 / 8;
 }
 
 .Bit3 {
@@ -122,28 +123,28 @@ body {
 }
 
 .Bit4 {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 2 / 4;
+    grid-row: 5 / 7;
 }
 
 .Bit5 {
-    grid-column: 1;
+    grid-column: 3 / ;
     grid-row: 1;
 }
 
 .Bit6 {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 5 / 7;
 }
 
 .Bit7 {
-    grid-column: 1;
+    grid-column: 3 / 5;
     grid-row: 1;
 }
 
 .Bit8 {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
 }
 /* ==========================================================================
    Helper classes
