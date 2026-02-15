@@ -108,8 +108,8 @@ body {
 }
 
 .Bit1 {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 4 / 4;
+    grid-row: 5 / 5;
 }
 
 .Bit2 {
@@ -128,8 +128,8 @@ body {
 }
 
 .Bit5 {
-    grid-column: 3 / ;
-    grid-row: 1;
+    grid-column: 4 / 5;
+    grid-row: 3 / 5;
 }
 
 .Bit6 {
